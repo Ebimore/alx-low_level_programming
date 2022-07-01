@@ -1,6 +1,7 @@
 #include <stdio.h>
+
 /*
- * main: prints input
+ * main - prints input
  * return: 0 if exited
  */
 int main(void)
