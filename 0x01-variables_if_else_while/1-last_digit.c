@@ -6,7 +6,7 @@
 * main - assigns a random number to n each time it is executed
 * Return: 0 always
 */
-int main(void);
+int main(void)
 {
 	int n;
 
