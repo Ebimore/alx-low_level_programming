@@ -40,8 +40,8 @@ void print_all(const char * const format, ...)
 
 /**
  * print_a_char - Prints a character of char type
- * @separator: The separator of the character
- * @args: A list of variadic arguments
+ * @separator: the character separator
+ * @args: a list of variadic arguments
  */
 void print_a_char(char *separator, va_list args)
 {
@@ -49,9 +49,9 @@ void print_a_char(char *separator, va_list args)
 }
 
 /**
- * print_an_integer - Prints a character of integer type
- * @separator: The separator of the character
- * @args: A list of variadic arguments
+ * print_an_integer - prints a character of integer type
+ * @separator: the character separator
+ * @args: a list of variadic arguments
  */
 void print_an_integer(char *separator, va_list args)
 {
@@ -60,8 +60,8 @@ void print_an_integer(char *separator, va_list args)
 
 /**
  * print_a_float - Prints a character of float type
- * @separator: The separator of the character
- * @args: A list of variadic arguments
+ * @separator: the character separator
+ * @args: a list of variadic arguments
  */
 void print_a_float(char *separator, va_list args)
 {
@@ -70,9 +70,8 @@ void print_a_float(char *separator, va_list args)
 
 /**
  * print_a_char_ptr - Prints the content of pointer to char type
- * @separator: The separator of the character
- * @args: A list of variadic arguments
- * Return: Nothing
+ * @separator: the character separator
+ * @args: a list of variadic arguments
  */
 void print_a_char_ptr(char *separator, va_list args)
 {
