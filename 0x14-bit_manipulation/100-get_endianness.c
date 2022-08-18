@@ -7,7 +7,7 @@
  */
 int get_endianness(void)
 {
-	unsigned int n = 1;
+	int n = 1;
 
-	printf ("%d", (int) (((char *)&n)[0]));
+	return (*((char *) &n) + '0');
 }
